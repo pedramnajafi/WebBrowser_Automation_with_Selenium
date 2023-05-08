@@ -18,7 +18,6 @@ Don't forget to change the "executable_path" which shows the path of "chromedriv
         driver.maximize_window()
         driver.get("https://demo.seleniumeasy.com/basic-first-form-demo.html")
         time.sleep(1)
-
         message_field = driver.find_element(By.XPATH,'//*[@id="user-message"]')
         message_field.send_keys("Hello Pedram")
         time.sleep(1)
