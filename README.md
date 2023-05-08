@@ -24,7 +24,6 @@ Don't forget to change the "executable_path" which shows the path of "chromedriv
         show_message_button = driver.find_element(By.XPATH,'//*[@id="get-input"]/button')
         show_message_button.click()
         time.sleep(1)
-
         additional_field1 = driver.find_element(By.XPATH,'//*[@id="sum1"]')
         additional_field1.send_keys("11")
         time.sleep(1)
