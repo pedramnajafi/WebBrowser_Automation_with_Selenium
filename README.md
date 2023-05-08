@@ -21,7 +21,6 @@ Don't forget to change the "executable_path" which shows the path of "chromedriv
         message_field = driver.find_element(By.XPATH,'//*[@id="user-message"]')
         message_field.send_keys("Hello Pedram")
         time.sleep(1)
-
         show_message_button = driver.find_element(By.XPATH,'//*[@id="get-input"]/button')
         show_message_button.click()
         time.sleep(1)
