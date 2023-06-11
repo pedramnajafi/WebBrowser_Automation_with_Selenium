@@ -6,7 +6,6 @@ With this code, you can fill a message field in a form, and click on the "Show M
 I have used "https://demo.seleniumeasy.com/basic-first-form-demo.html" page for this code.
 Don't forget to change the "executable_path" which shows the path of "chromedriver.exe" in your system.
 
-
         from selenium import webdriver
         from selenium.webdriver.common.by import By
         from selenium.webdriver.chrome.service import Service as ChromeService
