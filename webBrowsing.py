@@ -8,7 +8,6 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option("useAutomationExtension", False)
 service = ChromeService(executable_path="C:/Users/SnappFood/.cache/selenium/chromedriver/win32/110.0.5481.77/chromedriver.exe")
 
-
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://demo.seleniumeasy.com/basic-first-form-demo.html")
