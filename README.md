@@ -10,6 +10,7 @@ Don't forget to change the "executable_path" which shows the path of "chromedriv
         from selenium.webdriver.common.by import By
         from selenium.webdriver.chrome.service import Service as ChromeService
         import time
+        
         options = webdriver.ChromeOptions()
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
